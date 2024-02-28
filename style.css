@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#contaner {
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px #fff;
+
+
+}
+
+#contaner .left {
+
+    position: relative;
+    background: hsl(186, 86%, 78%);
+    padding: 40px;
+}
+
+
+
+.profile-img>img {
+    width: 200PX;
+    height: 200PX;
+    border-radius: 50%;
+
+}
+
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1PX solid #8a8888;
+
+
+
+}
+
+.profiletext .profile-img {
+
+    position: relative;
+    width: 200PX;
+    height: 200PX;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.profiletext .profile-img img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.profiletext h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext span {
+    font-size: 1.7em;
+    font-weight: 300;
+
+
+}
+
+.info {
+
+    padding: 40px;
+}
+
+.title {
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+
+}
+
+.info ul {
+    position: relative;
+
+}
+
+.info ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.info ul li .icon {
+
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: rgb(39, 40, 40);
+}
+
+.info ul li {
+    margin-bottom: 15px;
+}
+
+.info li h5 {
+    color: rgb(255, 255, 255);
+    font-weight: 500s;
+
+
+
+}
+
+.info li h4:nth-child(2) {
+    color: #000000;
+    font-weight: 500;
+
+
+}
+
+.info li h4 {
+
+    color: #000000;
+    font-weight: 300;
+}
+
+.info ul li .parcent {
+
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #fff;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.info .language .parcent div {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #d1773f
+}
+#contaner .right {
+
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0px;
+}
+.about  h2 {
+    color: #10d4d4;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+p{
+    color: #151515;
+}
+.about .box{
+display: flex;
+flex-direction: row;
+max-width: 20px 0;
+}
+.skill .html{
+    height: 10px;
+        border: 2px solid #000;
+        width: 100%;
+        margin-left: 0.5em;
+        margin-top: 10px;
+        background-color: #00ffff;
+        border-radius: 20px;
+        display: block;
+        position: relative;
+    }
+
+.info ul li .html div{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+height: 100%;
+background-color: var(--four-color);
+
+}
+.info span{
+    color: #000;
+}
+.info li{
+    list-style: none;
+}
+.skill .css{
+    height: 10px;
+        border: 2px solid #000;
+        width: 100%;
+        margin-left: 0.5em;
+        margin-top: 10px;
+        background-color: #00ffff;
+        border-radius: 20px;
+        display: block;
+        position: relative;
+    }
+
+
+    .info ul li .css div{
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+    height: 100%;
+    background-color: #00ffff;
+    
+    }
+    .info span{
+        color:#000;
+    }
+    .info li{
+        list-style: none;
+    }
+
+    .skill .java-script{
+        height: 10px;
+            border: 2px solid #000;
+            width: 100%;
+            margin-left: 0.5em;
+            margin-top: 10px;
+            background-color: #00ffff;
+            border-radius: 20px;
+            display: block;
+            position: relative;
+        }
+    
+
+    .info ul li .java-script div{
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+    height: 100%;
+    background-color: #00ffff;
+    
+    }
+    .info span{
+        color: #000;
+    }
+    .info li{
+        list-style: none;
+    }
+    .skill .Node-js{
+        height: 10px;
+            border: 2px solid #000;
+            width: 100%;
+            margin-left: 0.5em;
+            margin-top: 10px;
+            background-color: #00ffff;
+            border-radius: 20px;
+            display: block;
+            position: relative;
+        }
+    
+
+    .info ul li .Node-js div{
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+    height: 100%;
+    background-color: aqua;
+    
+    }
+    .info span{
+        color: #000;
+    }
+    .info li{
+        list-style: none;
+    }
+    
+    .skill .Mysql{
+        height: 10px;
+            border: 2px solid #000;
+            width: 100%;
+            margin-left: 0.5em;
+            margin-top: 10px;
+            background-color: #00ffff;
+            border-radius: 20px;
+            display: block;
+            position: relative;
+        }
+    
+
+    .info ul li .Mysql div{
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+    height: 100%;
+    background-color: #00ffff;
+    
+    }
+    .info span{
+        color: #000
+    }
+    .info li{
+        list-style: none;
+    }
